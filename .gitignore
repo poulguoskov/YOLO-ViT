@@ -1,0 +1,33 @@
+# data files (not code)
+data/VOCdevkit/
+data/*.tar
+data/*.zip
+
+# outputs
+runs/
+checkpoints/
+*.pth
+*.pt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# misc
+.DS_Store
+*.log
+
+# local
+jobs/logs/
+results/
+*.png
+!demo/**/*.png
+
+# report and templates
+02456_report_template/
+report/
